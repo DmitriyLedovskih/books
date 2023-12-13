@@ -1,0 +1,44 @@
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  .button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    .counter {
+      background-color: #daaa64;
+      min-width: 20px;
+      min-height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      color: #fff;
+    }
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .block {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .image {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .icon {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
